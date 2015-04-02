@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".WeatherActivity"
+    android:id="@+id/fullscreen_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_wetherlocname"
+        android:textSize="36sp"
+        android:text="LocationName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_wethertemp"
+        android:textSize="90sp"
+        android:text="140"
+        android:layout_below="@id/text_wetherlocname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_wethermain"
+        android:textSize="40sp"
+        android:text="Clouds"
+        android:layout_below="@id/text_wethertemp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_wetherdesc"
+        android:textSize="24sp"
+        android:text="cloudy particle"
+        android:layout_below="@id/text_wethermain"/>
+
+    <Button android:id="@+id/dummy_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy_button"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

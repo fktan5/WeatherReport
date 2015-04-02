@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherReport</string>
+    <string name="dummy_button">ウェザー・リポート</string>
+    <string name="error">エラー：ネットワークが繋がっていないか位置情報設定が無効になっています。</string>
+</resources>
